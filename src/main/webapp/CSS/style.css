@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-custom {
+	background-color: #38A3A5;
+}
+
+img {
+	border-radius: 10px;
+	transform: scale(1.2);
+}
+
+.navbar .nav-link {
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+}
+
+.nav-item {
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+}
+
+.navbar .nav-item .nav-link:hover {
+	background-color: white;
+	color: red;
+	border-radius: 10px;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.btn-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	gap: 5px;
+}
+
+.hero-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* 	justify-content: center; */
+	height: 100vh;
+}
+
+.hero-text button {
+	margin-top: 20px;
+}
+
+.hero-text button:hover {
+	background-color: #D0F288;
+	border: 3px solid green;
+	color: #41B06E;
+}
+
+#btnsize {
+	display: block;
+	width: 100%;
+	border: none;
+	background-color: #04AA6D;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+/* Footer Styles */
+footer {
+	background-image: linear-gradient(to right top, #1e1351, #21205a, #252c63, #2b386b,
+		#324473, #315483, #306593, #3076a1, #1291b8, #00acc8, #00c7d2, #33e1d6
+		);
+	color: #fff;
+	padding: 17.5px 0;
+}
+
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-section {
+	flex: 1 1 25%;
+	padding: 0 20px;
+}
+
+.footer-section h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.footer-section p {
+	font-size: 0.9em;
+}
+
+.footer-section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer-section ul li {
+	margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-bottom {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.footer-bottom p {
+	font-size: 0.9em;
+}
+
+.footer-disclaimer p {
+	font-size: 0.8em;
+}
+
+/* Social Icons */
+.footer-section.social ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer-section.social ul li:last-child {
+	margin-right: 0;
+}
+
+/* Font Awesome Icons */
+.footer-section.social ul li a {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+/* Hover effect for social icons */
+.footer-section.social ul li a:hover {
+	opacity: 0.8;
+}
